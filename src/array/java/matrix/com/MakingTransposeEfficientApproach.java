@@ -18,6 +18,17 @@ public class MakingTransposeEfficientApproach {
             }
         }
     }
+//    public static String printfizzbuzz(int i ){
+//        if( (i%3==0)&&(i%5==0)){
+//            return "fizzbuzz";
+//        }else if(i%3==0){
+//            return "fizz";
+//        }else if(i%5==0){
+//            return "buzz";
+//        }else {
+//            return "";
+//        }
+//    }
 //     public static void swap(int number1,int number2){
 //        int temp=number1;
 //        number1=number2;
@@ -37,6 +48,7 @@ public class MakingTransposeEfficientApproach {
             }
             System.out.println();
         }
+
     }
     }
 
