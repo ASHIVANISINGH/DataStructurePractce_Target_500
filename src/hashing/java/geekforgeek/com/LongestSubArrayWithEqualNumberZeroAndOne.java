@@ -21,10 +21,11 @@ public class LongestSubArrayWithEqualNumberZeroAndOne {
             }
             if(!hashMap.containsKey(prefixSum)){
                 hashMap.put(prefixSum,i);
+            }else {
+
+                maxCount = Math.max(maxCount, i - hashMap.get(prefixSum));
             }
-            if(hashMap.containsKey(prefixSum)){
-                maxCount=Math.max(maxCount,i-hashMap.get(prefixSum));
-            }
+
         }
         return maxCount;
     }
