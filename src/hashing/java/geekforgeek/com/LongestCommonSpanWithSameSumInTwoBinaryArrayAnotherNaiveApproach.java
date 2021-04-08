@@ -9,8 +9,8 @@ public class LongestCommonSpanWithSameSumInTwoBinaryArrayAnotherNaiveApproach {
             sum1=0;
             sum2=0;
             for(int j=i;j<arr1.length;j++){
-                sum1+=arr1[i];
-                sum2+=arr2[i];
+                sum1+=arr1[j];
+                sum2+=arr2[j];
 
                 if(sum1==sum2){
                     maxCont=Math.max(maxCont,j-i+1);
