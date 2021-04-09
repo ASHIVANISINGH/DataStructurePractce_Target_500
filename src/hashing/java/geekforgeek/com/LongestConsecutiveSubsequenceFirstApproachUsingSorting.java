@@ -25,6 +25,8 @@ public class LongestConsecutiveSubsequenceFirstApproachUsingSorting {
                 currentCount=1;
             }
         }
+        // this for corner case when all the element are consecutive
+        maxCount=Math.max(maxCount,currentCount);
         return maxCount;
 
     }
