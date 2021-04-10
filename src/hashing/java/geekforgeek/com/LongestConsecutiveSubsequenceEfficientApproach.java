@@ -21,7 +21,7 @@ public class LongestConsecutiveSubsequenceEfficientApproach {
         }
         return maxCount;
     }
-
+    
     public static void main(String[] args) {
 
 //        int arr[]=new int[]{1,9,3,4,2,20};
