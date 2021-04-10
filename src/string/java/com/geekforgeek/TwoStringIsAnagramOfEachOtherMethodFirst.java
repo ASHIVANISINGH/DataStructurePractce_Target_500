@@ -4,7 +4,13 @@ import java.util.HashMap;
 
 public class TwoStringIsAnagramOfEachOtherMethodFirst {
 
-
+     // here first we create an hashmap, and copy the whole string in hashmap
+    // we create key value in pair key is character and value increase by one
+    //and iterate in second string and check character present in the hashmap
+    // and decrease the value of key and if key' value equal to one the remove otherwise
+    // decrease that value by one and before check value of key first we check value present in
+    // hashmap or not , if character is not present in hashmap ,it means
+    // string is not anagram so we return false
     public static boolean checkGivenStringAnagram(String str,String str2){
         HashMap<Character,Integer> hashMap=new HashMap<>();
         if(str.length()!=str2.length()){

@@ -1,7 +1,9 @@
 package string.java.com.geekforgeek;
 
 public class TwoStringIsAnagramOfEachOtherMethodSecond {
-    // second method creating 256 value of ascii value of empty value array
+    // here we count frequency of each character we know that each character rang from 0 to 256
+    // we treat character as integer in java
+    // creating 256 value of ascii value of empty value array
     // what we get character that time increase the value
     // of count integer in the array
     //and iterate the second string each time what value in second string decrease that value
