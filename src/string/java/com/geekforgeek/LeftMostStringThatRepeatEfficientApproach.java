@@ -2,6 +2,11 @@ package string.java.com.geekforgeek;
 
 public class LeftMostStringThatRepeatEfficientApproach {
 
+    // idea is simple first count frequency of each character
+    // and again traverse string and check first character whose
+    // string is grater than 1 and return it
+    // if no character find then return -1
+
     public static int findLeftMostStringThatRepeat(String str1){
         int count[]=new int[256];
 
