@@ -1,7 +1,13 @@
 package link.list.geekforgeek.com;
 
-public class Test {
+public class TestAndPrintInRecursiveOrder {
 
+    public static void printInRecursive(Node head){
+        if(head==null)
+            return;
+        System.out.print("\t "+head.data);
+        printInRecursive(head.next);
+    }
     // single link list implementation
     public static void main(String[] args) {
         Node head=new Node(10);
@@ -15,5 +21,6 @@ public class Test {
         for(Node move=head;move!=null;move=move.next){
             System.out.print(" "+move.data);
         }
+        printInRecursive(head);
     }
 }
