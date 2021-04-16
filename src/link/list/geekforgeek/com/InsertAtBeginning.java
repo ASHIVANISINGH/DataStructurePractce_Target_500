@@ -105,6 +105,8 @@ public class InsertAtBeginning {
             return newNode;
         }
         else {
+            // this method simple
+
             // move for that position
             // move just position minus 2 because first node reference already reached
             // and we have add the node just before position
@@ -167,5 +169,6 @@ public class InsertAtBeginning {
 //        do {
 //            System.out.println("Enter the choise ");
 //        }while ();
+        System.out.println("This is link list");
     }
 }
