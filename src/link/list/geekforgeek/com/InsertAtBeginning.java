@@ -163,6 +163,12 @@ public class InsertAtBeginning {
         }
         return i+1;
     }
+    public static void printLinkList(Node head){
+
+        for(Node move=head;move!=null;move=move.next){
+            System.out.print("/t"+move.data);
+        }
+    }
 
     public static void main(String[] args) {
         int ch;
