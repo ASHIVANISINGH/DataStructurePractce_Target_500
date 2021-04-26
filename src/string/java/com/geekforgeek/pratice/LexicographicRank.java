@@ -46,7 +46,7 @@ class LexicographicRank {
         // Populate the count array such that count[i]
         // contains count of characters which are present
         // in str and are smaller than i
-        populateAndIncreaseCount(count, str);
+       // populateAndIncreaseCount(count, str);
  
         for (i = 0; i < len; ++i) {
             mul /= len - i;
