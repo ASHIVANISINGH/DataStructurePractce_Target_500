@@ -44,8 +44,10 @@ public class TwoStringIsAnagramOfEachOtherMethodFirst {
 
 //        String str="geeks";
 //        String str2="ekegs";
-        String str="aabcd";
-        String str2="abbcd";
+//        String str="aabcd";
+//        String str2="abbcd";
+        String str="aabdfg";
+        String str2="abbcdhgt";
 
         System.out.println(checkGivenStringAnagram(str,str2));
     }
